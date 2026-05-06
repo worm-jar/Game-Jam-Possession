@@ -1427,3 +1427,328 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.06-09.45.19:981][547]LogPlayLevel: Display: Destroying online subsystem :Context_6
 [2026.05.06-09.45.23:122][754]LogSlate: Window 'Message Log' being destroyed
 [2026.05.06-09.45.23:161][754]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.46.01:119][ 62]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.06-09.46.04:338][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.05.06-09.46.05:285][293]LogSlate: Window 'Save Content' being destroyed
+[2026.05.06-09.46.05:294][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.06-09.46.05:352][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.05.06-09.46.05:352][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.05.06-09.46.05:396][293]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.05.06-09.46.05:396][293]LogSavePackage: Moving '../../../../../../Users/GAME2/Documents/Unreal Projects/Game-Jam-Possession/Saved/BP_FirstPersonCharacter4A5F67264C47E1290E99A9A58CEBC2FC.tmp' to '../../../../../../Users/GAME2/Documents/Unreal Projects/Game-Jam-Possession/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.05.06-09.46.05:451][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.423 ms
+[2026.05.06-09.46.05:451][293]LogStreaming: Display: FlushAsyncLoading(599): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.06-09.46.05:496][293]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.46.05:507][293]LogAssetEditorSubsystem: Opening Asset editor for World /Game/LevelPrototyping/BlockoutMap_01.BlockoutMap_01
+[2026.05.06-09.46.05:507][293]Cmd: MAP LOAD FILE="../../../../../../Users/GAME2/Documents/Unreal Projects/Game-Jam-Possession/Content/LevelPrototyping/BlockoutMap_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.06-09.46.05:548][293]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.46.05:548][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.46.05:548][293]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson
+[2026.05.06-09.46.05:593][293]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.06-09.46.05:597][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.05.06-09.46.05:600][293]LogWorld: UWorld::CleanupWorld for BlockoutMap_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.46.05:601][293]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.46.05:631][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.05.06-09.46.05:659][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.05.06-09.46.05:677][293]LogAudio: Display: Audio Device (ID: 1) registered with world 'BlockoutMap_01'.
+[2026.05.06-09.46.05:677][293]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.46.05:760][293]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.06-09.46.05:793][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.05.06-09.46.05:811][293]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.06-09.46.05:811][293]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,074ms to complete.
+[2026.05.06-09.46.05:885][293]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.06-09.46.05:885][293]LogContentValidation: Enabled validators:
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.06-09.46.05:885][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.06-09.46.05:885][293]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.05.06-09.46.05:978][295]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.06-09.46.09:429][579]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.06-09.46.09:444][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.06-09.46.09:468][579]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2026.05.06-09.46.09:470][579]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.05.06-09.46.09:484][580]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.46.09:506][580]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021580s)
+[2026.05.06-09.46.09:506][580]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/BlockoutMap_01.BlockoutMap_01 to /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 (0.021620s)
+[2026.05.06-09.46.09:535][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.05.06-09.46.09:538][580]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.46.09:539][580]LogPlayLevel: PIE: World Init took: (0.001804s)
+[2026.05.06-09.46.09:540][580]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.06-09.46.09:540][580]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.06-09.46.09:540][580]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.06-09.46.09:540][580]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.06-09.46.09:540][580]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.06-09.46.09:540][580]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.06-09.46.09:543][580]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.06-09.46.09:557][580]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Synaptics HD Audio)
+[2026.05.06-09.46.09:557][580]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.06-09.46.09:557][580]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.06-09.46.09:557][580]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.06-09.46.09:557][580]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.05.06-09.46.09:557][580]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.05.06-09.46.09:560][580]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.05.06-09.46.09:561][580]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.05.06-09.46.09:561][580]LogInit: FAudioDevice initialized with ID 3.
+[2026.05.06-09.46.09:561][580]LogAudio: Display: Audio Device (ID: 3) registered with world 'BlockoutMap_01'.
+[2026.05.06-09.46.09:561][580]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.06-09.46.09:564][580]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.06-09.46.09:574][580]LogWorld: Bringing World /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 up for play (max tick rate 0) at 2026.05.06-11.46.09
+[2026.05.06-09.46.09:574][580]LogWorld: Bringing up level for play took: 0.009599
+[2026.05.06-09.46.09:577][580]PIE: Server logged in
+[2026.05.06-09.46.09:579][580]PIE: Play in editor total start time 0,136 seconds.
+[2026.05.06-09.46.09:633][581]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.06-09.46.09:935][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_BreakHitResult_HitActor in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.47.07:398][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.47.07:398][248]LogWorld: BeginTearingDown for /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.47.07:398][248]LogWorld: UWorld::CleanupWorld for BlockoutMap_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.47.07:400][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.47.07:402][248]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.06-09.47.07:407][248]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.47.07:435][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.47.07:436][248]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.06-09.47.07:436][248]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.05.06-09.47.07:438][248]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.05.06-09.47.07:447][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2026.05.06-09.47.07:581][249]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.05.06-09.47.09:059][338]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.47.09:099][338]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.48.22:835][728]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 322.546936
+[2026.05.06-09.48.23:018][750]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.06-09.48.23:018][750]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 322.722107, Update Interval: 308.428589
+[2026.05.06-09.48.41:682][699]LogSlate: Took 0.001283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.05.06-09.49.08:432][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.05.06-09.49.26:503][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.05.06-09.49.39:243][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.05.06-09.49.42:237][325]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.06-09.49.42:251][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.06-09.49.42:252][325]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2026.05.06-09.49.42:254][325]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.05.06-09.49.42:267][326]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.49.42:289][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021822s)
+[2026.05.06-09.49.42:289][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/BlockoutMap_01.BlockoutMap_01 to /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 (0.021861s)
+[2026.05.06-09.49.42:317][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.05.06-09.49.42:321][326]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.49.42:323][326]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2026.05.06-09.49.42:324][326]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.06-09.49.42:324][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.06-09.49.42:324][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.06-09.49.42:324][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.06-09.49.42:324][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.06-09.49.42:324][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.06-09.49.42:326][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.06-09.49.42:343][326]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Synaptics HD Audio)
+[2026.05.06-09.49.42:343][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.06-09.49.42:343][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.06-09.49.42:343][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.06-09.49.42:343][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.05.06-09.49.42:343][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.05.06-09.49.42:346][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.05.06-09.49.42:346][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.05.06-09.49.42:346][326]LogInit: FAudioDevice initialized with ID 4.
+[2026.05.06-09.49.42:346][326]LogAudio: Display: Audio Device (ID: 4) registered with world 'BlockoutMap_01'.
+[2026.05.06-09.49.42:346][326]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.05.06-09.49.42:350][326]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.06-09.49.42:359][326]LogWorld: Bringing World /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 up for play (max tick rate 0) at 2026.05.06-11.49.42
+[2026.05.06-09.49.42:359][326]LogWorld: Bringing up level for play took: 0.009003
+[2026.05.06-09.49.42:362][326]PIE: Server logged in
+[2026.05.06-09.49.42:364][326]PIE: Play in editor total start time 0,114 seconds.
+[2026.05.06-09.49.42:418][327]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.06-09.49.42:755][353]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_BreakHitResult_HitActor in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsHigh_Jump in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash_1 in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsNormal in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:115][384]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:124][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsNormal in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:124][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:124][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:124][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:125][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash_1 in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:125][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:125][385]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsHigh_Jump in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.43:125][385]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.49.44:929][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.49.44:929][540]LogWorld: BeginTearingDown for /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.49.44:929][540]LogWorld: UWorld::CleanupWorld for BlockoutMap_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.49.44:931][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.49.44:933][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.06-09.49.44:938][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.49.44:960][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.06-09.49.44:961][540]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.05.06-09.49.44:961][540]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.05.06-09.49.44:963][540]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.05.06-09.49.44:967][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.49.44:970][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.05.06-09.49.45:126][541]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.05.06-09.49.47:246][645]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.49.47:280][645]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.50.00:995][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.05.06-09.50.02:638][  1]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.06-09.50.02:651][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.06-09.50.02:651][  1]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2026.05.06-09.50.02:655][  1]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2026.05.06-09.50.02:667][  2]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.50.02:687][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020416s)
+[2026.05.06-09.50.02:688][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/BlockoutMap_01.BlockoutMap_01 to /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 (0.020453s)
+[2026.05.06-09.50.02:718][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.05.06-09.50.02:722][  2]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.50.02:724][  2]LogPlayLevel: PIE: World Init took: (0.001569s)
+[2026.05.06-09.50.02:725][  2]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.06-09.50.02:725][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.06-09.50.02:725][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.06-09.50.02:725][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.06-09.50.02:725][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.06-09.50.02:725][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.06-09.50.02:727][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Synaptics HD Audio)
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.05.06-09.50.02:741][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.05.06-09.50.02:744][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.05.06-09.50.02:744][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.05.06-09.50.02:744][  2]LogInit: FAudioDevice initialized with ID 5.
+[2026.05.06-09.50.02:744][  2]LogAudio: Display: Audio Device (ID: 5) registered with world 'BlockoutMap_01'.
+[2026.05.06-09.50.02:744][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.05.06-09.50.02:748][  2]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.06-09.50.02:758][  2]LogWorld: Bringing World /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 up for play (max tick rate 0) at 2026.05.06-11.50.02
+[2026.05.06-09.50.02:758][  2]LogWorld: Bringing up level for play took: 0.009149
+[2026.05.06-09.50.02:761][  2]PIE: Server logged in
+[2026.05.06-09.50.02:762][  2]PIE: Play in editor total start time 0,111 seconds.
+[2026.05.06-09.50.02:814][  3]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.06-09.50.03:084][ 23]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_BreakHitResult_HitActor in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:441][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsDash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:441][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:441][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash_1 in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:441][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:442][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:442][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:442][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsNormal in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:442][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsNormal in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsSlash_1 in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property K2Node_DynamicCast_AsDash in not an UClass". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.03:453][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Overlay Material Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.50.04:808][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.50.04:808][165]LogWorld: BeginTearingDown for /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.50.04:808][165]LogWorld: UWorld::CleanupWorld for BlockoutMap_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.50.04:810][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.50.04:812][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.06-09.50.04:818][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.50.04:842][165]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.06-09.50.04:843][165]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.05.06-09.50.04:843][165]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.05.06-09.50.04:845][165]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.05.06-09.50.04:863][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.50.04:867][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2026.05.06-09.50.05:006][166]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2026.05.06-09.50.06:539][266]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.50.06:577][266]LogSlate: Window 'Message Log' being destroyed
+[2026.05.06-09.50.13:083][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.05.06-09.50.17:170][145]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.05.06-09.50.34:654][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.06-09.50.34:688][477]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2026.05.06-09.50.34:691][477]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.05.06-09.50.34:706][478]LogPlayLevel: Creating play world package: /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.50.34:727][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020224s)
+[2026.05.06-09.50.34:727][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LevelPrototyping/BlockoutMap_01.BlockoutMap_01 to /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 (0.020259s)
+[2026.05.06-09.50.34:757][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.05.06-09.50.34:760][478]LogChaosDD: Creating Chaos Debug Draw Scene for world BlockoutMap_01
+[2026.05.06-09.50.34:762][478]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2026.05.06-09.50.34:763][478]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.06-09.50.34:763][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.06-09.50.34:763][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.06-09.50.34:763][478]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.06-09.50.34:763][478]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.06-09.50.34:763][478]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.06-09.50.34:765][478]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.06-09.50.34:779][478]LogAudioMixer: Display: Using Audio Hardware Device Haut-parleurs (Synaptics HD Audio)
+[2026.05.06-09.50.34:779][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.06-09.50.34:779][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.06-09.50.34:779][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.06-09.50.34:779][478]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.05.06-09.50.34:779][478]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.05.06-09.50.34:782][478]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.05.06-09.50.34:782][478]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.05.06-09.50.34:782][478]LogInit: FAudioDevice initialized with ID 6.
+[2026.05.06-09.50.34:782][478]LogAudio: Display: Audio Device (ID: 6) registered with world 'BlockoutMap_01'.
+[2026.05.06-09.50.34:782][478]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.05.06-09.50.34:785][478]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.05.06-09.50.34:795][478]LogWorld: Bringing World /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01.BlockoutMap_01 up for play (max tick rate 0) at 2026.05.06-11.50.34
+[2026.05.06-09.50.34:795][478]LogWorld: Bringing up level for play took: 0.009222
+[2026.05.06-09.50.34:798][478]PIE: Server logged in
+[2026.05.06-09.50.34:800][478]PIE: Play in editor total start time 0,146 seconds.
+[2026.05.06-09.50.34:851][479]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.06-09.51.12:418][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.51.12:418][420]LogWorld: BeginTearingDown for /Game/LevelPrototyping/UEDPIE_0_BlockoutMap_01
+[2026.05.06-09.51.12:419][420]LogWorld: UWorld::CleanupWorld for BlockoutMap_01, bSessionEnded=true, bCleanupResources=true
+[2026.05.06-09.51.12:421][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.51.12:422][420]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.06-09.51.12:428][420]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.06-09.51.12:451][420]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.06-09.51.12:451][420]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.05.06-09.51.12:451][420]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.05.06-09.51.12:453][420]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.05.06-09.51.12:457][420]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.06-09.51.12:461][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2026.05.06-09.51.12:546][421]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.05.06-09.51.17:163][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.05.06-09.51.17:167][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.06-09.51.17:219][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.05.06-09.51.17:219][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.05.06-09.51.17:264][551]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.05.06-09.51.17:264][551]LogSavePackage: Moving '../../../../../../Users/GAME2/Documents/Unreal Projects/Game-Jam-Possession/Saved/BP_FirstPersonCharacter5773A7034577FECCE06D7BB49A1C89C7.tmp' to '../../../../../../Users/GAME2/Documents/Unreal Projects/Game-Jam-Possession/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.05.06-09.51.17:278][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.034 ms (total: 267.458 ms)
+[2026.05.06-09.51.17:337][551]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.06-09.51.17:337][551]LogContentValidation: Enabled validators:
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.06-09.51.17:337][551]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.06-09.51.17:337][551]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
