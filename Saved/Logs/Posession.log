@@ -23575,3 +23575,6 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
 		NumGeometrySegments changed: current: 0 - new: 512
 [2026.05.06-09.34.20:867][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_BreakHitResult_HitActor in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2026.05.06-09.37.17:942][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4677.106934
+[2026.05.06-09.37.18:943][692]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.06-09.37.18:943][692]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4677.773438, Update Interval: 347.751709
