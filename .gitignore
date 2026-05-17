@@ -76,3 +76,7 @@ DerivedDataCache/*
 Saved/Logs/Posession.log
 Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 Saved/AutoScreenshot.png
+Intermediate/ReimportCache
+Intermediate
+Saved/Autosaves/PackageRestoreData.json
+Saved/SourceControl/UncontrolledChangelists.json
